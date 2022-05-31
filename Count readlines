@@ -1,0 +1,7 @@
+f = open("system.txt","r")
+count = 0
+data = f.readlines()
+for i in data:
+    count += 1
+print(count)
+0 comments on commit 12e0fb3
